@@ -1,0 +1,16 @@
+\babel@toc {brazil}{}\relax 
+\contentsline {chapter}{\numberline {1}Introdução}{14}{chapter.1}
+\contentsline {section}{\numberline {1.1}Objetivo}{14}{section.1.1}
+\contentsline {chapter}{\numberline {2}Escopo}{15}{chapter.2}
+\contentsline {section}{\numberline {2.1}Modelagem no espaço das juntas}{15}{section.2.1}
+\contentsline {chapter}{\numberline {3}Metodologia}{17}{chapter.3}
+\contentsline {section}{\numberline {3.1}Controle combinado}{17}{section.3.1}
+\contentsline {chapter}{\numberline {4}Resultados e discussão}{18}{chapter.4}
+\contentsline {chapter}{\numberline {5}Conclusão}{19}{chapter.5}
+\contentsline {chapter}{Refer\^encias}{20}{chapter.6}
+\SetAppendixTocName {Ap\^endice}
+\contentsline {chapter}{\numberline {A}Tópicos de Dilema Linear}{21}{appendix.A}
+\contentsline {section}{\numberline {A.1}Uma Primeira Seção para o Apêndice}{21}{section.A.1}
+\SetAppendixTocName {Anexo}
+\contentsline {chapter}{\numberline {A}Exemplo de um Primeiro Anexo}{22}{annex.a}
+\contentsline {section}{\numberline {A.1}Uma Seção do Primeiro Anexo}{22}{section.a.1}
