@@ -73,7 +73,9 @@
 %\usepackage{subfigure}
 %\usepackage{subfigmat}
 %PACOTEFIGURAS_SE _ERRADO_ESXCLUIR_ACIMA
-\usepackage{booktabs}
+\usepackage{multirow}  % para unir células na vertical
+\usepackage{booktabs} % para toprule, midrule e bottomrule
+\usepackage{array} % para definir colunas de tabelas com largura fixa
 %PACOTETABELAS_SE _ERRADO_ESXCLUIR_ACIMA
 %HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
 
@@ -151,10 +153,10 @@ precursores sólidos de baixo teor de cálcio e fontes alcalinas alternativas.}
 \chapter{Introdução}
 \input{Cap1/cap1}
 
-\chapter{Revsião da literatura}
+\chapter{Revsião bibliográfica}
 \input{Cap2/cap2}
 
-\chapter{Metodologia}
+\chapter{Materiais e métodos}
 \input{Cap3/cap3}
 
 \chapter{Resultados e discussão}
