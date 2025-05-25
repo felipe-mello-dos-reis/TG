@@ -1,17 +1,7 @@
-\section{Controle combinado}
-Conforme vimos na seção \ref{ectq3} podemos controlar um sistema nao linear como  através da técnica do torque computado, usando um controlador PD dado por:
-\begin{equation} \label{ectq3}
-\tau'=\ddot{q}_d+K_v(\dot{q}_d-\dot{q})+K_p(q_d-q) \; ,
-\end{equation}
-sendo $q_{d}$, $\dot{q}_{d}$ e $\ddot{q}_{d}$ a posição desejada, a velocidade desejada e a aceleração desejada; $K_p$
-e $K_v$ são matrizes diagonais $n \times n$, sendo que cada elemento da diagonal é um ganho positivo e escalar.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel gravida nisi. Aenean nisl ipsum, consequat quis suscipit et, finibus nec nibh. Mauris elementum ullamcorper tortor, sit amet elementum ante. Proin sed dapibus nibh. Integer pellentesque odio ut odio tristique tincidunt. Proin bibendum risus vitae auctor imperdiet. Praesent scelerisque purus eu metus pharetra, vel ornare elit sagittis. Quisque id massa urna. Etiam in sodales sapien. Vivamus quam leo, vulputate vel arcu non, sagittis tincidunt lacus. Aliquam sit amet ligula vel risus rutrum porttitor lacinia id magna. Nunc laoreet neque nec iaculis mattis. Fusce fermentum congue tortor sed condimentum. Sed id nunc ante. Sed blandit sem vitae justo fringilla, ut blandit elit lacinia.
 
-Aqui $M_{est}$ e $b_{est}$ são modelos estimados da matriz de inércia, $M$, e do vetor de torques não inerciais, $b$, do robô real,  respectivamente. A equação de malha fechada do sistema é:
-\begin{equation} \label{ectq4}
-\ddot{e}+K_v\dot{e}+K_pe=M_{est}^{-1}[(M-M_{est})\ddot{q}+(b-b_{est})] \; .
-\end{equation}
+Suspendisse sit amet erat et orci eleifend suscipit ut eu tortor. Fusce imperdiet pellentesque leo a rhoncus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec ut ex leo. Aenean nec lectus eu lacus tincidunt semper id eu tellus. In tristique odio eget purus placerat egestas. Aliquam erat volutpat. Duis vel odio in neque tincidunt bibendum eget eu lorem. Pellentesque volutpat tristique aliquet. Nam consequat dui quis metus posuere varius id quis turpis. Proin vel nisl in purus vestibulum volutpat. Nullam elementum ante non mi venenatis eleifend.
 
-Em um manipulador real, podem existir distúrbios externos tais como atrito, variação de torque dos atuadores, e perturbações em virtude  das cargas no robô. Se a soma destes distúrbios for definida como $d_{ext}$ e adicionada à (\ref{ectq4}), teremos
-\begin{equation} \label{ectq5}
-\ddot{e}+K_v\dot{e}+K_pe=M_{est}^{-1}[(M-M_{est})\ddot{q}+(b-b_{est})+d_{ext}] \; .
-\end{equation}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin placerat rutrum. Donec semper fermentum tellus, vitae accumsan elit accumsan ut. Fusce pellentesque interdum purus, non consequat libero posuere a. Mauris tincidunt tellus ut aliquam fringilla. Etiam lobortis, dui at congue condimentum, urna lorem condimentum enim, in porta mauris tellus eget enim. Pellentesque nulla diam, bibendum quis elit nec, luctus congue nibh. Pellentesque et odio a libero pharetra dapibus id sed arcu. Integer tempor quam nec ante hendrerit, et finibus dui malesuada. Nullam feugiat ullamcorper nulla, at lobortis massa scelerisque nec. Suspendisse luctus odio rutrum nulla condimentum gravida.
+
+Phasellus et nunc laoreet, lobortis sapien ut, porta nisi. Nulla eleifend orci erat, at euismod lectus molestie vel. Integer eu risus in risus venenatis bibendum. Proin condimentum ante vel lacus elementum, eu vehicula justo fermentum. Vestibulum ut mi ac ex porta laoreet. Nunc scelerisque pretium quam. Curabitur dui mi, lacinia a accumsan id, tempus a metus.
