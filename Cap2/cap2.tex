@@ -1,36 +1,98 @@
-\section{templates}
+\section{Contexto Histórico}
 
-Exemplo de uma tabela.
+De acordo com \cite{pachecotorgal2014handbook}, a síntese de materiais através de ativação alcalina iniciou-se nas décadas de 1930 e 1940, quando foi sintetizado um substituto para o Cimento Portland tradicional a partir de escórias de alto-forno e outros aluminosilicatos.
+Foi então a partir de 1970 que o interesse por esta área aumentou, quando o cientista francês Joseph Davidovits cunhou o termo "geopolímero" e patentetou diversas formulações de geopolímeros. Seu estudo inicial era voltado ao desenvilvimento de materiais inorgânicos não infamáveis e resistentes ao fogo \cite{provis2009geopolymers}.
 
-\begin{table}[ht]
-\caption{Exemplo de uma Tabela}
-\label{minhatab}
+Desde então, os AAM chamaram atenção de pesquisadores e indústrias devido ao baixo consumo de energia e natureza sustentável \cite{qin2022onepart}.
+Além disso, conforme os estudos avançaram, os AAM ganharam reconhecimento por suas propriedades mecânicas e durabilidade, uma vez que as reações de polimerização que ocorrem durante a cura fornecem um alto ganho de resitência a compressão e ataques químicos.
 
-\center
-\begin{tabular}{cccc}
-  % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
-  \hline
-	Parâmetro & Unidade & Valor da simulação & Valor experimental   \\
-	\hline
-  Comprimento, $\alpha$ & $m$ &  $8,23$  & $8,54$ \\
-  Altura, $\beta$ & $m$     &  $29,1$ & $28,3$\\
-	Velocidade, $v$ & $m/s$  &  $60,2$ & $67,3$\\
-	\hline
-\end{tabular}
-\end{table}
+\section{Matérias-primas de AAM}
 
-% Exemplo de uma imagem.
+\subsection{Precursores}
 
-% \begin{figure}[ht]
-% \centering
-% \includegraphics[width=0.75\textwidth]{Cap2/spiderrobot}
-% \caption{Cupim cibernético.}\label{fig:cupim}
-% \end{figure}
+Os precursores são materiais ricos em $SiO_2$ e $Al_2O_3$ que, quando ativados por uma solução alcalina, formam uma rede tridimensional de aluminosilicatos \cite{rakhimova2019metakaolin}.
+As propriedades mecânicas e cinéticas dos AAM são fortemente influenciadas pela proporção de $SiO_2/Al_2O_3$ \cite{provis2007geopolymerisation}.
+O processo inicial da ativação consiste da dissolução dos aluminosilicatos pela quebra das ligações covalentes $Si-O-Si$ e $Al-O-Al$ quando o pH é elevado \cite{Severo2013}. A hidrólise pode ser esquematizada da seguinte forma:
 
-
-Exemplo de uma equação
-
-\begin{equation} \label{eq:lagr1}
-\frac{d}{dt}(\frac{\partial L}{\partial \dot{q}})-\frac{\partial L}{\partial q}=\tau^{T}.
+\begin{equation}
+  Al_2O_3 + 3H_2O + 2OH^- \rightarrow 2\left[Al(OH)_4\right]^- 
 \end{equation}
 
+\begin{equation}
+  SiO_2 + H_2O + OH^- \rightarrow \left[SiO(OH)_3\right]^- 
+\end{equation}
+
+\begin{equation}
+  SiO_2 + 2OH^- \rightarrow \left[SiO_2(OH)_2\right]^{2-}
+\end{equation}
+
+Em seguida, os silicatos e aluminatos dissolvidos reagem entre si para formar um gel, o qual passa por um processo de polimerização e endurecimento, conforme a Figura \ref{fig:ativacao}.
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=0.75\textwidth]{Cap2/ativacao.png}
+  \caption{Esquema do processo de ativação alcalina \cite{duxson2006geopolymer}.}
+  \label{fig:ativacao}
+\end{figure}
+
+Os precursores podem ser divididos em duas categorias, os de alto teor de cálcio, como escória de alto-forno e cinza volante, e os de baixo teor de cálcio, como o metacaulim.
+A Figura \ref{fig:diagrama_ternario} apresenta os precursores mais comuns e suas respectivas composições químicas.
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=0.625\textwidth]{Cap2/diagrama_ternario.png}
+  \caption{Diagrama ternário dos precursores mais comuns \cite{giergiczny2019fly}.}
+  \label{fig:diagrama_ternario}
+\end{figure}
+
+O primeiro grupo possui como principal produto da reação de ativação o silicato de aluminio e cálcio hidratado (C-A-S-H), enquanto, o segundo grupo forma principalmente o gel de silicato de alumínio hidratado (N-A-S-H).
+
+Quando níveis de cálcio presentes nesses precursores são altos, o produto final é em um gel de cura rápida, alta resistência inicial. No entanto, são mais suscetíveis a retrações, fissuras e corrosão por ataque de cloro.
+Já os sistemas de baixo cálcio formam uma rede amorfa de tetraedros que apresenta baixa permeabilidade e retração, melhor resistência ao fogo e estrutura menos porosa.
+A proporção de $SiO_2/Al_2O_3$ é responsável pelo grau de polimerizacão do gel formado, portanto, caso a relação ideal não seja atingida, a resistência mecânica e durabilidade do AAM podem ser comprometidas.
+Por fim, o gel N-A-S-H necessita de um maior tempo de cura e temperatura entre $80-100\ ^\circ C$ para atingir a resistência mecânica apropriada \cite{Nodehi2021}.
+
+A Tabela \ref{tab:principais_precursores} apresenta as principais características dos precursores mais comuns.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Características de materiais residuais comuns ou inovadores que podem ser adicionados ao concreto para produzir aglomerantes mais sustentáveis \cite{Nodehi2021}.}
+  \begin{tabular}{l c c c c l}
+    \hline
+    \textbf{Nome do aditivo} & \textbf{Densidade média (kg/m\textsuperscript{3})} & \textbf{Tamanho (\textmu m)} & \textbf{Forma usual} & \textbf{Limitações} & \textbf{Benefícios} \\
+    \hline
+    Cimento Portland (OPC) & 1440 & 0,15--20 & Irregular e angular & -- & -- \\
+    Sílica ativa & 2200 & 0,1--0,5 & Esférica & Redução da trabalhabilidade e da resistência inicial & Aumenta a compacidade, resistência mecânica e durabilidade \\
+    Escória de alto-forno moída (GGBFS) & 1000--1300 & 1,25--250 & Angular com superfície rugosa & Baixa resistência inicial & Aumenta a durabilidade, melhora a ITZ e resistência a sulfatos \\
+    Cinza volante (Fly ash) & 540--860 & 0,5--300 & Esférica & Baixa resistência inicial & Melhora a trabalhabilidade e a resistência a longo prazo \\
+    Metacaulim & 890 & 1--20 & Porosa, lamelar e angular & Reduz a trabalhabilidade & Preenche a microestrutura e melhora a ITZ \\
+    Cinza de casca de arroz & 504--700 & 5--10 & Irregular com alta porosidade & Variação nas propriedades e baixa reatividade & Alto teor de sílica; melhora a compacidade e resistência \\
+    Pó de vidro & 2500 & 0,8--50 & Irregular & Alta contaminação & Melhora a durabilidade e reação pozolânica \\
+    Lama vermelha (red mud) & 2700--3400 & 100 até mais de 200 & Irregular e em forma de agulha & Alta contaminação & Alto teor de alumina, pode melhorar a hidratação \\
+    Resíduos cerâmicos & ~1700 & Abaixo de 100 & Angular & -- & Melhora a compacidade e o desempenho \\
+    Escória de incineração de resíduos sólidos urbanos (MSWI) & 660--1690 & -- & Irregular & -- & Melhora a microestrutura e reduz a porosidade \\
+    Cinza de lodo de papel & Abaixo de 100 & -- & Irregular & -- & Ajusta favoravelmente a razão S/A \\
+    \hline
+  \end{tabular}
+\label{tab:principais_precursores}
+\end{table}
+
+% \subsubsection{Metacaulim}
+
+% \subsubsection{Sílica ativa}
+
+\subsection{Ativadores}
+
+O ataque alcalino sobre a microestrutura dos precursores resulta na liberação de silicatos e aluminatos na solução.
+A solubilidade da sílica e da alumina em função do pH é apresentada na Figura \ref{fig:solubilidade}.
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=0.625\textwidth]{Cap2/solubilidade.png}
+  \caption{Solubilidade da sílica e da alumina em função do pH \cite{mason1952principles}.}
+  \label{fig:solubilidade}
+\end{figure}
+
+Observa-se que a solubilidade da sílica é baixa em ambientes ácidos e alta em básicos, enquanto alumina é solúvel em ambos os extremos.
+Portanto, para que as reações de ativação ocorram, é necessário que o pH da solução seja elevado.
+
+Os ativadores mais comuns são hidróxido de sódio (NaOH), hidróxido de potássio (KOH) e carbonato de sódio (Na$_2$CO$_3$) \cite{provis2009geopolymers}.
